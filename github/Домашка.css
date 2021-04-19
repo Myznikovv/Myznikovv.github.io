@@ -1,0 +1,154 @@
+.shapka{
+	background-color:#373638 ;
+    background-image: url("img/header-bg.jpg");
+    height: 80px;
+    background-size: 100% 100%;
+
+}
+.shapk{display: table;
+height:80px;}
+.content{
+	width:940px;
+	height: 1000px;
+}
+.mez{   width:115px;
+display: table-cell;}
+.logo{display: table-cell;
+	padding:20px;
+}
+.mezdy{   width:85px;
+display: table-cell;}
+  div.nadpisi{
+  	display: table-cell;
+  	width: 40px;
+  	padding:10px;
+  	
+  }
+h4.nadpisi{
+	font-family: Arial, sans-serif;
+	font-size: 14px; color:white; font-weight: normal; 
+	text-align: center;
+}
+div.Servecies{
+	height: 100px;
+	padding:30px;
+}
+h1.Servecies{
+	font-size:  40px; color:#000;   font-weight:  bold; 
+	text-transform: uppercase;
+	text-align: center;
+}
+p.Servecies{
+	font-size:  16px; color: #777; 
+	font-weight:normal; 
+	font-style: italic ;
+	text-align: center;
+
+
+}
+.items{display: table;
+height: 200px;
+margin-bottom: 20px;}
+.promez{
+	 width:110px;
+display: table-cell;
+}
+.item{display: table-cell;
+width: 200px;
+padding:13px;}
+.iconka{
+	 display: inline-block;
+	border-radius: 50%;
+ text-align: center;
+ padding: 5px;
+ margin-left: 80px  ;
+  margin-right: 80px  ;
+ border: solid  2px  #FFD237;
+}
+img{
+		text-align:center;
+display: inline-block;
+height: 95%;
+width: 95%;}
+h2.item{ font-size:  18px; color: #000;  font-weight:  bold;
+ text-align: center; }
+ b.item{ font-size:  15px;color:#777; font-weight:  normal;text-align:center;
+display: inline-block; }
+.se{text-align:center;
+display: inline-block;
+height: 37px;
+width: 39px;}
+div.portfolio{
+	clear: both;
+	height: 100px;
+	padding:15px;
+	margin-bottom: 60px;
+ }
+ h1.portfolio{
+	font-size:  40px; color:#000;   font-weight:  bold; 
+	text-transform: uppercase;
+	text-align: center; 
+
+
+}
+p.portfolio{
+	font-size:  16px; color: #777; 
+	font-weight:normal; 
+	font-style: italic ;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.ceriy{background: #f7f7f7;
+height: 600px;}
+.kartinki{
+	display: table;
+	height:230px;
+	margin-bottom: 50px;
+
+}
+div.kartinka{
+	display: table-cell;
+	text-align: center; 
+	background: white;
+	height:230px;
+	width: 200px;
+	padding: 15px;
+
+}
+h1.kartinka{
+	font-size:  18px; color:#000;   font-weight:  bold; 
+	text-align: center; 
+
+
+}
+b.kartinka{
+	font-size:  15px;color:#777; font-weight:  normal; font-style: italic ;
+	text-align: center; 
+}
+div.kart-1{
+	background-image: url("img/pic-1.jpg");
+	height: 200px;
+	background-size: 100% 100%;
+}
+.promezu{
+	 width:120px;
+display: table-cell;
+}
+div.kart-2{
+	background-image: url("img/pic-2.jpg");
+	height: 200px;
+	background-size: 100% 100%;
+}
+div.kart-3{
+	background-image: url("img/pic-3.jpg");
+	height: 200px;
+	background-size: 100% 100%;
+}
+div.futer{
+	height: 50px;
+	background:#222222;
+}
+b.futer{
+	text-align: center;
+	font-size:  15px; color:#555;font-weight:normal;
+}
