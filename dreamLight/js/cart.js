@@ -127,8 +127,6 @@ function sendEmail(){
                   else {
                       alert('Повторите заказ');
                   }
-                }
-             );
         }
     }else{
         alert('Заполните поля');
