@@ -105,28 +105,28 @@ function sendEmail(){
         if ($.isEmptyObject(cart)){
             alert('Корзина пуста');
         }else{
-                      alert('Заказ отправлен');
-                      cart={};
-                      count=0;
-                      saveCartToLS();//сохраняю корзину в localStorage
-                      if ($.isEmptyObject(cart)) {
-                          var out ='';
-                          out+='Корзина пустая,вернитесь на главную страницу';
-                          out+='<div class="line-cart line"></div> ';
-                          out += '<br>';
-                          out+='<h4><strong> Итоговая цена :</strong> 0 рублей</h4>';
-                          out+='<br>';
-                         var print2='0';
-                          $('.main-prise').html(print2);
-                          $('#my-cart').html(out);
-                          $('.get-back').on('click',function(){
-                              window.location.href = $(this).attr('url');
-                          });
-                          location.reload();
-                      }
-                  else {
-                      alert('Повторите заказ');
-                  }
+            alert('Заказ отправлен');
+            cart={};
+            count=0;
+            saveCartToLS();//сохраняю корзину в localStorage
+            if ($.isEmptyObject(cart)) {
+                var out ='';
+                out+='Корзина пустая,вернитесь на главную страницу';
+                out+='<div class="line-cart line"></div> ';
+                out += '<br>';
+                out+='<h4><strong> Итоговая цена :</strong> 0 рублей</h4>';
+                out+='<br>';
+                var print2='0';
+                $('.main-prise').html(print2);
+                $('#my-cart').html(out);
+                $('.get-back').on('click',function(){
+                    window.location.href = $(this).attr('url');
+                });
+                location.reload();
+            }
+            else {
+                alert('Повторите заказ');
+            }
         }
     }else{
         alert('Заполните поля');
