@@ -113,7 +113,6 @@ function sendEmail(){
                     "cart":cart
                 },
                 function(data){
-                  if( data != 1){
                       alert('Заказ отправлен');
                       cart={};
                       count=0;
@@ -133,7 +132,6 @@ function sendEmail(){
                           });
                           location.reload();
                       }
-                  }
                   else {
                       alert('Повторите заказ');
                   }
