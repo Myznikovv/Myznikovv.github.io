@@ -105,14 +105,6 @@ function sendEmail(){
         if ($.isEmptyObject(cart)){
             alert('Корзина пуста');
         }else{
-            $.post(
-                "core/mail.php",{
-                  "name":name,
-                  "mail":mail,
-                  "phone":phone,
-                    "cart":cart
-                },
-                function(data){
                       alert('Заказ отправлен');
                       cart={};
                       count=0;
