@@ -1,0 +1,49 @@
+.logo{
+    width:46px;
+    height:71px;
+    margin-right: 50px;
+}
+body{
+    background: black;
+    color:#fff;
+    font-family: "Roboto", sans-serif;
+}
+.main-block{
+    background: url(../img/main-picture.png)  no-repeat;
+    background-size: 100%;
+}
+section{
+    padding:2px;
+    min-height: 500px;
+}
+header{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.menu-item{
+    text-decoration: none;
+    margin-right: 30px;
+}
+.menu-item-link{
+    text-decoration: none ;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.data{
+    margin-top: 110px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+.text-title{
+    max-width: 423px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+}
