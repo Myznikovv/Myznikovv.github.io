@@ -1,0 +1,9 @@
+.logo {
+  width: 46px;
+  height: 71px;
+}
+body {
+  background: black;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
